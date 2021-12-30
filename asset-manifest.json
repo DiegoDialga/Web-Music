@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Web-music/static/css/main.88fcfee1.css",
+    "main.js": "/Web-music/static/js/main.298934be.js",
+    "static/js/787.b384255a.chunk.js": "/Web-music/static/js/787.b384255a.chunk.js",
+    "static/media/anime_image_03dc8ba5f4.jpg": "/Web-music/static/media/anime_image_03dc8ba5f4.6558fa253d7cb86e6f63.jpg",
+    "static/media/FB_IMG_jpg": "/Web-music/static/media/FB_IMG_16341979179539662.d4eb95f6b21e17880266.jpg",
+    "static/media/one_direction.jpg": "/Web-music/static/media/one_direction.b595cbc4f4e34af193a2.jpg",
+    "index.html": "/Web-music/index.html",
+    "main.88fcfee1.css.map": "/Web-music/static/css/main.88fcfee1.css.map",
+    "main.298934be.js.map": "/Web-music/static/js/main.298934be.js.map",
+    "787.b384255a.chunk.js.map": "/Web-music/static/js/787.b384255a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88fcfee1.css",
+    "static/js/main.298934be.js"
+  ]
+}
