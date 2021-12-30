@@ -1,0 +1,219 @@
+.navbar{
+  width: 100%;
+  height: 10vh;
+  flex: 0.5;
+  background-color: #040404;
+  z-index: -1;
+  opacity: 0.75;
+}
+
+.navbar::before{
+    content:  "";
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 10vh;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+.nav_option{
+  display: inline-block;
+  font-family: 'baloo bhai', cursive;
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  padding: 15px 20px;
+}
+
+.nav_option:hover{
+  border-radius: 20px;
+  background-color: white;
+  color:blue;
+}
+
+#home{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 200px;
+  height: 433px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('images/FB_IMG_16341979179539662.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    opacity: 0.95;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+#services{
+    margin: 34px;
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#services .box_anime{
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: grey;
+}
+
+#services .box_anime:hover{
+    color:brown;
+    background-color: cornflowerblue;
+    background: url('images/itachi.jpg') no-repeat center center/cover;
+    border: 4px solid white;
+    margin: 1px;
+    font-size:1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 210px;
+}
+
+#services .box_anime img{
+    height: 160px;
+    margin: auto;
+    display: block;
+
+}
+
+
+#services .box_english{
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: grey;
+}
+
+#services .box_english:hover{
+    color:brown;
+    background-color: cornflowerblue;
+    background: url('images/one_direction.jpg') no-repeat center center/cover;
+    border: 4px solid white;
+    margin: 1px;
+    font-size:1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 210px;
+}
+
+#services .box_english img{
+    height: 160px;
+    margin: auto;
+    display: block;
+
+}
+
+
+#services .box_hindi{
+    border: 2px solid rgba(255, 255, 255, 0);
+    padding: 34px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background: grey;
+}
+
+#services .box_hindi:hover{
+    color:brown;
+    background-color: cornflowerblue;
+    background: url('images/anime_image_03dc8ba5f4.jpg') no-repeat center center/cover;
+    border: 4px solid white;
+    margin: 1px;
+    font-size:1rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 210px;
+}
+
+#services .box_hindi img{
+    height: 160px;
+    margin: auto;
+    display: block;
+
+}
+
+.h-primary{
+    font-size: 2.8rem;
+    padding: 12px;
+    font-family: 'Baloo Bhai', cursive;
+    color:#f2f2f2
+
+}
+
+.h-secondary{
+    font-size: 2.8rem;
+    padding: 12px;
+}
+
+.h-secondary:hover{
+  color: white;
+}
+
+.p-secondary:hover{
+  color: white;
+}
+
+.btn{
+  padding:1px 2px;
+  font-family: cursive;
+  border: 3px solid blue;
+  background-color: blue;
+  margin: 1px;
+  font-size: 0.8rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn > a{
+  color: white;
+}
+
+.btn:hover{
+    padding: 2px 4px;
+    font-family: 'Baloo Bhai', cursive;
+    border: 4px solid greenyellow;
+    background-color: greenyellow;
+    margin: 1px;
+    font-size:1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn > a:hover{
+  color: blue;
+}
+
+.center{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
